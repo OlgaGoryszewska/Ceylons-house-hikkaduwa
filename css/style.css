@@ -13,10 +13,6 @@ html{
     width: 200px;
 }
 
-.hotel_home_page{
-    display: flex;
-    width: 200px;
-}
 
 .model-food{
     display: flex;
@@ -24,7 +20,9 @@ html{
 }
 
 body{
-    background-image: url('../images/hotel-home_page.jpg');
-    background-size: 800px;
+    background-image: url('../images/main-img.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 500px;
     
 }
