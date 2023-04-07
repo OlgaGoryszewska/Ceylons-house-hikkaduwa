@@ -5,12 +5,16 @@
     --white:#FFF;
 }
 
+@font-face {
+    font-family: ;
+    src: url();
+}
 html{
     margin: auto;
 }
 .logo-white{
-    display: flex;
-    width: 200px;
+    width: 170px;
+    margin-left: -1rem;
 }
 
 
@@ -24,5 +28,28 @@ body{
     background-size: cover ;
     background-repeat: no-repeat;
     height: 500px;
+    
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    
+}
+
+nav{
+    display: none;
+    
+}
+
+.book-now-btn{
+    
+    width: 123px;
+    height: 50px;
+    border: solid var(--white) 0.5px;
+    background-color: transparent;
+    color: var(--white);
+
+    
     
 }
