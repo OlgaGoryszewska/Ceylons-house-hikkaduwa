@@ -1,0 +1,30 @@
+:root{
+    --black:#30302F;
+    --orange:#FFA800;
+    --light-beige:#F1E7D7;
+    --white:#FFF;
+}
+
+html{
+    margin: auto;
+}
+.logo-white{
+    display: flex;
+    width: 200px;
+}
+
+.hotel_home_page{
+    display: flex;
+    width: 200px;
+}
+
+.model-food{
+    display: flex;
+    width: 200px;
+}
+
+body{
+    background-image: url('../images/hotel-home_page.jpg');
+    background-size: 800px;
+    
+}
