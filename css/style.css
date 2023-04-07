@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: libre-franklin-regular;
+    font-family:libre-franklin-regular;
     src: url(fonts/libre-franklin-regular);
 }
 html{
@@ -52,7 +52,7 @@ nav{
     color: var(--white);
     align-self: center;
     margin-top: -3rem;
-    font-family: libre-franklin-regular;
+
 }
 
 #menu-bar{
@@ -61,7 +61,7 @@ nav{
     justify-self: center;
     align-self: center;
     margin-top: -3rem;
-    font-size:;
+    
 
    
 
