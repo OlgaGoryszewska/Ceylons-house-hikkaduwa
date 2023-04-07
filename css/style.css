@@ -7,8 +7,15 @@
 
 @font-face {
     font-family:libre-franklin-regular;
-    src: url(fonts/libre-franklin-regular);
+    src: url(fonts/LibreFranklin-Regular.ttf);
+
 }
+
+@font-face {
+    font-family: playfair-display-italic;
+    src: url(fonts/PlayfairDisplay-Italic.ttf);
+}
+
 html{
     margin: auto;
 }
@@ -53,6 +60,7 @@ nav{
     align-self: center;
     margin-top: -3rem;
 
+
 }
 
 #menu-bar{
@@ -61,9 +69,5 @@ nav{
     justify-self: center;
     align-self: center;
     margin-top: -3rem;
-    
-
-   
-
     
 }
