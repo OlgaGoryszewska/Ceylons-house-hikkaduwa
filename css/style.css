@@ -16,6 +16,14 @@
     src: url(fonts/PlayfairDisplay-Italic.ttf);
 }
 
+@font-face {
+    font-family:"roboto-condensed-regular";
+    src: url(PlayfairDisplay-Italic)
+}
+
+h1{
+    font-family: roboto-condensed-regular;
+}
 html{
     margin: auto;
 }
