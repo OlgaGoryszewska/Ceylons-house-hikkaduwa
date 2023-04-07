@@ -32,9 +32,9 @@ body{
 }
 
 .header{
-    margin-top: -1.5rem;
+   
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr 1fr;
     
 }
 
@@ -52,11 +52,17 @@ nav{
     color: var(--white);
     align-self: center;
     margin-top: -3rem;
-
-    
-    
 }
 
-#menu{
+#menu-bar{
+    
     color: var(--white);
+    justify-self: center;
+    align-self: center;
+    margin-top: -3rem;
+    font-size:;
+
+   
+
+    
 }
