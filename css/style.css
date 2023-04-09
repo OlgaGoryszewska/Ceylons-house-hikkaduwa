@@ -12,21 +12,30 @@
 }
 
 @font-face {
+    font-family: 'roboto-condensed-regular';
+    src: url() rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet");
+}
+
+@font-face {
     font-family: playfair-display-italic;
     src: url(fonts/PlayfairDisplay-Italic.ttf);
 }
 
 @font-face {
-    font-family:"roboto-condensed-regular";
-    src: url(PlayfairDisplay-Italic)
+    font-family:"roboto";
+    src: url(fonts/RobotoCondensed-Regular.ttf);
 }
 
 h1{
-    font-family: roboto-condensed-regular;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 html{
     margin: auto;
 }
+
 .logo-white{
     width: 170px;
     margin-left: -1rem;
@@ -43,6 +52,7 @@ body{
     background-size: cover ;
     background-repeat: no-repeat;
     height: 500px;
+    max-width: 1200px;
     
 }
 
