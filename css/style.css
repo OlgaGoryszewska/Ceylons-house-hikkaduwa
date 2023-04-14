@@ -5,12 +5,6 @@
     --white:#FFF;
 }
 
-span{
-    font-weight:700;
-}
-
-
-
 p,
 h1{
     font-family: 'Roboto Condensed', sans-serif;
@@ -40,14 +34,15 @@ html{
 }
 
 .logo-black{
-    width: 300px;
+    width: 200px;
     justify-self: center;
 }
 
 
 body{
-    background-color: var(--white)
+    background-color: var(--white);
     display: grid;
+    padding: 1.5rem;
 
     
 }
@@ -57,10 +52,12 @@ body{
     font-size: 20px;
 }
 
-.header{
-   
+header{
+    background-color: var(--black);
     display: grid;
     grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    height: 170px;
     
 }
 
@@ -70,11 +67,11 @@ nav{
 }
 
 .hotel-img{
-    width: 500px;
-    height: 250px;
+    width: 600px;
+    height: 300px;
     justify-self: center;
     object-fit: cover;
-    padding:2rem;
+    
    
 
 }
