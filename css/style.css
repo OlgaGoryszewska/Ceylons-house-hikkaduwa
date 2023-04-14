@@ -16,6 +16,7 @@ h1{
     font-size: 58px;
     font-weight: 300;
     align-content: center;
+    align-self: center;
 }
 
 p{
@@ -77,6 +78,8 @@ nav{
     height: 300px;
     justify-self: center;
     object-fit: cover;
+    align-self: center;
+    border-radius: 50%;
     
    
 
