@@ -106,3 +106,16 @@ nav{
     margin-top: -3rem;
     
 }
+
+.social-media-icons{
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    font-size: 24px;
+    justify-items: center;
+    column-gap: 2rem;
+   
+}
+
+
