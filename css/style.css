@@ -28,8 +28,12 @@
     src: url(fonts/RobotoCondensed-Regular.ttf);
 }
 
+h2,
 h1{
     font-family: 'Roboto Condensed', sans-serif;
+    color: var(--light-beige);
+    margin: 2rem;
+    font-weight:lighter
 }
 
 html{
@@ -37,8 +41,9 @@ html{
 }
 
 .logo-white{
-    width: 170px;
-    margin-left: -1rem;
+    color: var(--light-beige);
+    width: 250px;
+    justify-self: center;
 }
 
 
@@ -48,18 +53,17 @@ html{
 }
 
 body{
-    background-image: url('../images/main-img.jpg');
-    background-size: cover ;
-    background-repeat: no-repeat;
-    height: 500px;
-    max-width: 1200px;
+    background-color: #30302F;
+  
+  
+    
     
 }
 
 .header{
    
     display: grid;
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: auto;
     
 }
 
