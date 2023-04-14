@@ -5,35 +5,23 @@
     --white:#FFF;
 }
 
-@font-face {
-    font-family:libre-franklin-regular;
-    src: url(fonts/LibreFranklin-Regular.ttf);
 
-}
-
-@font-face {
-    font-family: 'roboto-condensed-regular';
-    src: url() rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet");
-}
-
-@font-face {
-    font-family: playfair-display-italic;
-    src: url(fonts/PlayfairDisplay-Italic.ttf);
-}
-
-@font-face {
-    font-family:"roboto";
-    src: url(fonts/RobotoCondensed-Regular.ttf);
-}
-
-h2,
+p,
 h1{
     font-family: 'Roboto Condensed', sans-serif;
-    color: var(--light-beige);
+    font-family: 'DM Serif Display', serif;
+    color: var(--white);
     margin: 2rem;
-    font-weight:lighter
+    max-width: 600px;
+    justify-self: center;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 16px;
+    font-family: Urbanist;
+    font-weight: 100;
 }
 
 html{
@@ -42,21 +30,15 @@ html{
 
 .logo-white{
     color: var(--light-beige);
-    width: 250px;
+    width: 400px;
     justify-self: center;
 }
 
 
-.model-food{
-    display: flex;
-    width: 200px;
-}
-
 body{
     background-color: #30302F;
-  
-  
-    
+    display: grid;
+
     
 }
 
