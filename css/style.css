@@ -13,13 +13,13 @@ h1{
     margin: 1.5rem;
     max-width: 600px;
     justify-self: center;
-    font-size: 48px;
+    font-size: 62px;
     font-weight: 300;
     align-content: center;
 }
 
 p{
-    font-size: 16px;
+    font-size: 20px;
     font-family: Urbanist;
     font-weight: 400;
 }
@@ -30,26 +30,13 @@ p{
 }
 
 html{
+    background-color: var(--black);
     margin: auto;
 }
 
 .logo-black{
     width: 200px;
     justify-self: center;
-}
-
-
-body{
-    background-color: var(--white);
-    display: grid;
-    padding: 1.5rem;
-
-    
-}
-
-.text-under-img{
-    font-family: 'Pinyon Script', cursive;
-    font-size: 20px;
 }
 
 header{
@@ -61,13 +48,27 @@ header{
     
 }
 
+body{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-under-img{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
+}
+
+
+
 nav{
     display: none;
     
 }
 
 .hotel-img{
-    width: 600px;
+    max-width: 600px;
     height: 300px;
     justify-self: center;
     object-fit: cover;
