@@ -5,6 +5,11 @@
     --white:#FFF;
 }
 
+span{
+    font-weight:700;
+}
+
+
 
 p,
 h1{
@@ -36,7 +41,7 @@ html{
 
 .logo-white{
     color: var(--light-beige);
-    width: 400px;
+    width: 300px;
     justify-self: center;
 }
 
@@ -46,6 +51,11 @@ body{
     display: grid;
 
     
+}
+
+.text-under-img{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 20px;
 }
 
 .header{
@@ -61,10 +71,10 @@ nav{
 }
 
 .hotel-img{
-    max-width: 300px;
+    width: 500px;
+    height: 250px;
     justify-self: center;
     object-fit: cover;
-    border-radius: 50%;
     padding:2rem;
    
 
