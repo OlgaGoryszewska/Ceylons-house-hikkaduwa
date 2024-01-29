@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Escape to paradise at our tropical resort in Hikkaduwa, Sri Lanka, where pristine beaches meet serene yoga
-    retreats. Immerse yourself in the tranquil beauty of palm-fringed shores, while indulging in rejuvenating yoga
-    sessions that harmonize mind and body. Discover ultimate relaxation and adventure amidst lush landscapes, warm
-    waters, and expert-led yoga experiences at our Hikkaduwa sanctuary."
+      content="Connect with us at Ceylon's House your gateway to Hikkaduwa's tropical paradise. Contact our friendly team for inquiries, reservations, and assistance. We're here to make your stay unforgettable. Reach out to us today!"
     />
-    <title>Ceylon's House| Home</title>
+    <title>Ceylon's House| Contact us</title>
     <link rel="stylesheet" href="css/styless.css" />
     <link
       rel="shortcut icon"
-      href="img/img/logo-ceylons-house-round.png"
+      href="img/logo-ceylons-house-round.png"
       title="Tropical Haven Hotel, Sri Lanka Logo"
     />
     <script
@@ -29,9 +26,6 @@
     />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap");
-    </style>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
     </style>
   </head>
   <body>
@@ -68,83 +62,60 @@
       <a href="index.html" class="logo-img">
         <img
           src="img/logo-ceylons-house-black.png"
-          title="Tropical Heaven Hotel, ceylon's house in Hikkaduwa, Sri Lanka, Logo"
+          title="Tropical Haven Hotel, ceylon's house in Hikkaduwa, Sri Lanka, Logo"
           class="logo-img"
       /></a>
     </header>
     <main>
-      <div class="main-img-div">
-        <img
-          class="main-img"
-          src="img/ceylons-house-hotel.jpg"
-          alt="A poster of a beautyful Sri Lankan women"
-        />
-      </div>
+      <h1>/Get in touch!</h1>
+      <div class="background-img">
+        <div class="contact-form">
+          <form id="contact-form" action="#" method="post">
+            <p class="header-contact-form">We would love to hear from you!</p>
 
-      <div class="home-page-introduction-grid">
-        <div class="about-us-main-wrapper">
-          <p class="header-about-us">Hikkaduwa Retreat</p>
-          <p class="content-about-us">
-            Imagine waking up to the gentle rustling of tropical palms, the soft
-            murmur of the ocean, and the vibrant hues of Sri Lanka's pristine
-            rice fields. At Hikkaduwa Retreat, this dream is your reality.
-          </p>
+            <label for="name">Hi, my name is</label>
+            <input type="text" id="name" name="name" autocomplete="name" />
+            <span class="error" id="nameError"></span><br />
 
-          <img
-            class="about-us-image"
-            src="img/walk-by-the-beach.png"
-            alt="Guests finding inner peace and serenity through yoga practice at our Sri Lankan retreat in Hikkaduwa."
-          />
+            <label for="subject">And I am wondering about</label>
+            <input type="text" id="subject" name="subject" autocomplete="off" />
+            <span class="error" id="subjectError"></span><br />
 
-          <p class="header-about-us">Experience the magic</p>
-          <p class="content-about-us">
-            of Hikkaduwa Retreat, where nature and wellness intertwine to create
-            unforgettable memories. Whether you're seeking adventure,
-            relaxation, or a blend of both, our tropical haven is ready to
-            embrace you.
-          </p>
+            <label for="message">Briefly</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              autocomplete="off"
+            ></textarea>
+            <span class="error" id="messageError"></span><br />
 
-          <img
-            class="about-us-image"
-            src="img/tropical-retreat.jpg"
-            alt="Guests finding fun through surfing practice at our Sri Lankan retreat in Hikkaduwa."
-          />
+            <label for="email">Get in touch with me at</label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+            <span class="error" id="emailError"></span><br />
+
+            <input type="submit" name="submit" value="SEND" />
+          </form>
         </div>
       </div>
-      <h1 class="latest-post-h1">/Latest post</h1>
+      <a href="tel: +94775481031" class="tel">Tel nr: +94 77 548 10 31</a>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.980689817697!2d80.10802927498965!3d6.13329659385356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae177055eacd19b%3A0xbbac9a114f83d68f!2sCeylons%20House%20Hikkaduwa%2C%20Sri%20Lanka!5e0!3m2!1sen!2sno!4v1705224870997!5m2!1sen!2sno"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
 
-      <div class="slider">
-        <ul class="slider-rail">
-          <li class="card"></li>
-          <li class="card"></li>
-          <li class="card"></li>
-          <li class="card"></li>
-          <li class="card"></li>
-        </ul>
-
-        <div class="btn-wrapper">
-          <button class="left-btn">
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-          <button class="right-btn">
-            <i class="fa-solid fa-chevron-right"></i>
-          </button>
-        </div>
-      </div>
-
-      <div class="horizontal-scrolling">
-        <div class="card-mobile-view"></div>
-        <div class="card-mobile-view"></div>
-        <div class="card-mobile-view"></div>
-        <div class="card-mobile-view"></div>
-        <div class="card-mobile-view"></div>
-        <div class="card-mobile-view"></div>
-      </div>
+      <script src="js/contact.js" defer></script>
     </main>
     <footer>
       <img
         class="logo-footer"
-        src="../img/ceylons-house-hikkaduwa-sub-logo.png"
+        src="img/ceylons-house-hikkaduwa-sub-logo.png"
         title="Tropical Haven Hotel, ceylon's house in Hikkaduwa, Sri Lanka, Logo"
       />
       <a class="link-footer" href="contact.html"> CONTACT US</a>
@@ -157,6 +128,5 @@
       >
       <p class="coptrights">&copy; 2023 devgoddess.no. All Rights Reserved.</p>
     </footer>
-    <script src="js/index.js" defer></script>
   </body>
 </html>
