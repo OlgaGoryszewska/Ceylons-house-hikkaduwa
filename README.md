@@ -1,11 +1,21 @@
-# Ceylons house
+# Experience the Comfort of Home at Ceylon’s House in Hikkaduwa
 
-Welcome to our hidden gem in Hikkaduwa, Sri Lanka! Nestled by lush rice fields and just a quick 10-minute stroll from the beach, our cozy hotel offers a one-of-a-kind stay that will make your Sri Lankan adventure unforgettable.
+## Discover a Tranquil Retreat
+Discover a tranquil retreat at Ceylon’s House, perfectly nestled amidst expansive rice fields and vibrant jungle, yet just a 10-minute stroll from the pristine beaches of Hikkaduwa. Ideal for couples, families, and groups of friends, our boutique hotel offers a perfect blend of adventure and serenity. Each of our nine elegantly designed rooms features a private balcony, providing a peaceful view of local wildlife, including peacocks, green parrots, kingfishers, and a diverse array of other animals.
 
-At our hotel, we pride ourselves on our commitment to providing locally sourced and fresh cuisine, giving our guests an authentic taste of Sri Lanka. Our cozy accommodations are designed to help you relax and unwind after a day exploring all that Hikkaduwa has to offer. Whether you're looking for a romantic getaway or a family vacation, our hotel has everything you need to make your stay in Sri Lanka memorable.
+## Homey Atmosphere with Luxurious Amenities
+Feel at home in our welcoming environment, where every detail is crafted for comfort and relaxation:
+- **Dining**: Enjoy daily fresh seafood at our unique rooftop restaurant, the only one in Sri Lanka designed to offer panoramic views of the jungle, letting you dine among monkeys, bats, chameleons, and lizards.
+- **Relaxation**: Our garden’s inviting pool, accompanied by a bar, provides a serene oasis for relaxation and family fun, even as we make some enhancements to ensure our facilities are top-notch.
 
-Explore the stunning natural beauty of Hikkaduwa with ease, thanks to our prime location. From the bustling markets to the pristine beaches, there's something for everyone in Hikkaduwa. Take a dip in the crystal-clear waters of the Indian Ocean, or simply lounge by our refreshing pool with a tropical drink in hand.
+## Active Adventures and Spa Treatments
+- **Surfing**: Whether you’re a novice or an experienced surfer, take advantage of our surfing lessons provided at the nearby beach.
+- **Spa**: After riding the waves, relax and rejuvenate with our spa services, including deep tissue massages, relaxation therapies, and Ayurvedic treatments, available both indoors and in the fresh air with a picturesque jungle backdrop. Our spa offers a sanctuary where you can unwind and reconnect with nature.
 
-At our hotel, we offer a range of amenities to make your stay as comfortable as possible. Whether you're looking for an indulgent spa treatment or an exciting excursion, our friendly and knowledgeable staff are always on hand to help you plan your perfect day.
+## Current Enhancements for Future Comforts
+We are currently making improvements around our pool area to enhance your future stays. Please note, during this period, hot water services are temporarily unavailable, and there may be minor disruptions. We are committed to minimizing any inconvenience and thank you for your understanding as we strive to improve our facilities.
 
-If you're looking for a truly unique and unforgettable Sri Lankan experience, our hotel is the perfect choice. Book your stay with us today and discover the beauty of Hikkaduwa!
+## Your Perfect Escape
+Whether seeking a romantic retreat, a family vacation, or a getaway with friends, Ceylon’s House promises a stay filled with memorable moments. Here, every guest is treated like family, and every stay feels like coming home. Just a short walk from the beach, you can easily switch from jungle views to ocean waves—or from a surfboard back to a sun lounger.
+
+**Book your journey to Ceylon’s House today and let us welcome you to your home away from home in the heart of Hikkaduwa.**
