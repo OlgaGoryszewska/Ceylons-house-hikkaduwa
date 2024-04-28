@@ -1,3 +1,15 @@
+## link to netlify:
+
+https://app.netlify.com/sites/dulcet-selkie-7bdc9d/overview
+
+## link to github:
+
+https://github.com/OlgaGoryszewska/Ceylons-house-hikkaduwa
+
+## link to page:
+
+http://ceylonshouse.com/
+
 # Experience the Comfort of Home at Ceylon’s House in Hikkaduwa
 
 ## Discover a Tranquil Retreat
