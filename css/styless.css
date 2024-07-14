@@ -225,7 +225,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  justify-content: center;
+  justify-content:flex-start;
 }
 .latest-post-h1 {
   padding: 1rem;
@@ -655,7 +655,7 @@ div.product > * {
   padding-top: 2rem;
   max-width: 600px;
   align-content: center;
-  justify-content: center;
+  justify-content:flex-start;
 }
 
 .header-about-us {
@@ -663,31 +663,28 @@ div.product > * {
   margin-bottom: 0rem;
   font-family: "Playfair Display", serif;
   font-size: 36px;
-  align-self: center;
   font-weight: 600;
   animation: fadeIn 2s;
-  text-align: center;
+  text-align:left;
 }
 
 .content-about-us {
-  padding-right: 3rem;
-  padding-left: 3rem;
   font-family: "Poppins", urbanist;
   font-size: 14px;
   font-weight: 400;
   animation: fadeIn 2s;
-  text-align: center;
+  text-align: left;
   color: var(--black);
 }
 
 .about-us-image {
   align-self: center;
-  max-width: 70%;
+  max-width: 100%;
   object-fit: cover;
   opacity: 0;
   transform: translateY(-20px);
   animation: slideDown 1s ease-out 0.5s forwards;
-  border-radius: 15px;
+  border-radius: 3px;
   margin-bottom: 3rem;
 }
 
