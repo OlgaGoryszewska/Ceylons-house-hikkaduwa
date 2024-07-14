@@ -653,6 +653,8 @@ div.product > * {
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   max-width: 600px;
   align-content: center;
   justify-content:flex-start;
