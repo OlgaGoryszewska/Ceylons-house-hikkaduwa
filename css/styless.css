@@ -1,5 +1,5 @@
 :root {
-  --black: #30302f;
+  --black: #30302F;
   --beige: #e1d5c7;
   --grey: #f8f8f8;
   --white: #fff;
@@ -697,6 +697,23 @@ div.product > * {
   border-radius: 3px;
   margin-bottom: 1rem;
 }
+
+
+.icon-wrap{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.icon-text{
+  font-size: 12px;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+  
+}
+
+
+
 
 @media screen and (min-width: 800px) {
   .content-about-us {
