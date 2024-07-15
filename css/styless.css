@@ -652,7 +652,7 @@ div.product > * {
 .about-us-main-wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 600px;
@@ -660,14 +660,21 @@ div.product > * {
   justify-content:flex-start;
 }
 
+.header-about-us-hero,
 .header-about-us {
   margin-top: 0;
   margin-bottom: 1rem;
   font-family: "Playfair Display", serif;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 600;
   animation: fadeIn 2s;
   text-align:left;
+}
+
+.header-about-us-hero{
+  font-size: 32px;
+  margin-bottom: 0rem;
+
 }
 
 .content-about-us {
