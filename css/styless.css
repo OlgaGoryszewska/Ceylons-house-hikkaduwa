@@ -687,6 +687,7 @@ div.product > * {
   color: var(--black);
 }
 
+.about-us-image-right,
 .about-us-image {
   align-self: center;
   max-width: 100%;
@@ -698,10 +699,20 @@ div.product > * {
   margin-bottom: 1rem;
 }
 
+.about-us-image-right{
+  max-width: 50%;
+  margin-left: 1rem;
+}
+
 
 .icon-wrap{
+  border: 1px solid;
+  padding: 0.2rem;
   display: flex;
   flex-direction: row;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+
 
 }
 
@@ -710,6 +721,11 @@ div.product > * {
   margin-top: 0.3rem;
   margin-left: 1rem;
   
+}
+
+.section-icons-wrap{
+  display: flex;
+  flex-direction: row;
 }
 
 
