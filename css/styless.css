@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Playfair Display SC", serif;
-  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 }
 
 @font-face {
@@ -95,8 +95,9 @@ h4{
   color: var(--black);
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: larger;
+  font-size:24px;
   margin:0;
+  margin-bottom: 0.5rem;
 
 }
 
@@ -107,9 +108,7 @@ h4{
   color: red;
 }
 
-.bold-text {
-  font-weight: 700;
-}
+
 
 .tel {
   font-size: 24px;
@@ -251,10 +250,8 @@ main {
 }
 
 .main-img-div {
-  display: grid;
   position: relative;
   padding-top: 0rem;
-  margin-bottom: -6rem;
   align-items: center;
   justify-items: center;
 }
@@ -692,8 +689,9 @@ div.product > * {
 }
 
 .header-about-us-hero{
-  font-size: 32px;
+  font-size: 42px;
   margin-bottom: 0rem;
+
 
 }
 
