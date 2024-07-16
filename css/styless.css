@@ -207,9 +207,10 @@ button{
 .material-symbols-outlined {
   padding-top: 0.3rem;
   color: var(--black);
+  
   font-variation-settings:
   'FILL' 0,
-  'wght' 400,
+  'wght' 600,
   'GRAD' 0,
   'opsz' 40,
 }
@@ -729,6 +730,8 @@ div.product > * {
   margin-top: 0.5rem;
   margin-left: 0.5rem;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   
 }
 
