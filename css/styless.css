@@ -250,9 +250,8 @@ main {
 
 .main-img-div {
   display: flex;
-  position: relative;
   padding-top: 0rem;
-  align-items:end
+  align-items:end;
 
 }
 
@@ -265,15 +264,14 @@ main {
 }
 
 .header-about-us-hero{
-  position: absolute;
   font-size: 42px;
   font-family: "Playfair Display", serif;
-  color: var(--white);
+  color: var(--black);
   text-transform: uppercase;
-  margin:1rem;
-  margin-bottom: 4rem;
   text-align:left;
   font-weight: 100;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
 
 }
