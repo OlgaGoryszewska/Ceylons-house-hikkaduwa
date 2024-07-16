@@ -1,5 +1,5 @@
 :root {
-  --black: #30302F;
+  --black: #231F20;
   --beige: #e1d5c7;
   --grey: #f8f8f8;
   --white: #fff;
@@ -61,6 +61,9 @@ a:active,
 a:focus {
   color: #706e6f;
 }
+.italic {
+  font-style: italic;
+}
 
 h1,
 p,
@@ -98,6 +101,19 @@ h4{
   font-size:24px;
   margin:0;
   margin-bottom: 0.5rem;
+
+}
+button{
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  padding: 0.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
 
 }
 
@@ -244,16 +260,23 @@ main {
   justify-items: center;
   justify-content:flex-start;
 }
-.latest-post-h1 {
-  padding: 1rem;
-}
-
-.main-img-div {
+.about-us-main-wrapper {
   display: flex;
-  padding-top: 0rem;
-  align-items:end;
-
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+  align-content: center;
+  justify-content:flex-start;
 }
+
+.white-card{
+  padding:1rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
 
 .main-img {
   object-fit: cover;
@@ -653,43 +676,14 @@ div.product > * {
   }
 }
 
-.about-us-main-wrapper-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about-us-main-wrapper {
-  display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  max-width: 600px;
-  align-content: center;
-  justify-content:flex-start;
-}
-
-
-.header-about-us {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-family: "Playfair Display", serif;
-  font-size: 26px;
-  font-weight: 600;
-  animation: fadeIn 2s;
-  text-align:left;
-
-}
-
-
-.content-about-us {
+.content {
   font-family: "Poppins", urbanist;
   font-size: 14px;
   font-weight: 400;
   animation: fadeIn 2s;
   text-align: left;
   color: var(--black);
+  margin-top: 0;
 }
 
 .about-us-image-right,
