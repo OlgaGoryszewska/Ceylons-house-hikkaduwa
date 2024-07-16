@@ -173,6 +173,8 @@ h3 {
   padding-top: 4rem;
 }
 .material-symbols-outlined {
+  padding-top: 0.3rem;
+  color: var(--black);
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
@@ -335,7 +337,7 @@ footer {
   padding-top: 2rem;
 }
 
-/* Contact form*/
+/* Contact form */
 
 .map {
   margin-left: auto;
@@ -699,15 +701,24 @@ div.product > * {
   margin-bottom: 1rem;
 }
 
+.section-icons-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+
+
+}
+
 .about-us-image-right{
   max-width: 50%;
   margin-left: 1rem;
+ align-self: flex-start;
+ justify-self: right;
 }
 
 
 .icon-wrap{
-  border: 1px solid;
-  padding: 0.2rem;
   display: flex;
   flex-direction: row;
   border-radius: 3px;
@@ -717,9 +728,10 @@ div.product > * {
 }
 
 .icon-text{
-  font-size: 12px;
-  margin-top: 0.3rem;
-  margin-left: 1rem;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  font-weight: 600;
   
 }
 
@@ -727,8 +739,6 @@ div.product > * {
   display: flex;
   flex-direction: row;
 }
-
-
 
 
 @media screen and (min-width: 800px) {
