@@ -35,6 +35,13 @@
   src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@700&display=swap");
 }
 
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+}
+
+
+
 html {
   margin: auto;
 }
@@ -81,6 +88,16 @@ h2 {
 
 h3 {
   text-align: left;
+}
+h4{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: var(--black);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: larger;
+  margin:0;
+
 }
 
 #nameError,
