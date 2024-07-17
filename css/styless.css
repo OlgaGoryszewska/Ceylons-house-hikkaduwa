@@ -63,6 +63,7 @@ a:focus {
 }
 .italic {
   font-style: italic;
+  color: #807771;
 }
 
 h1,
@@ -91,6 +92,13 @@ h2 {
 
 h3 {
   text-align: left;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font: 24px;
+  color: #807771;
+  margin-top:0.5rem;
 }
 h4{
   font-family: "Montserrat", sans-serif;
@@ -721,6 +729,7 @@ div.product > * {
   flex-direction: row;
   border-radius: 3px;
   margin-bottom: 0.5rem;
+  border-bottom: #807771 1px dashed ;
 
 
 }
