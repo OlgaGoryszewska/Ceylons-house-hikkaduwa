@@ -64,6 +64,10 @@ a:focus {
   font-style: italic;
 
 }
+.color-gray {
+  color: #807771;
+}
+
 
 h1,
 p,
@@ -776,6 +780,7 @@ div.product > * {
   background-image: url("../img/ceylons-house-surfing.png");
   background-size: cover;
   margin: 0;
+  max-width: 600px;
  
 }
 
