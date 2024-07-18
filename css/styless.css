@@ -112,9 +112,10 @@ h4{
 }
 h5{
   font-family: "Playfair Display", serif;
-  font-size: 36px;
-  padding-left: 1rem;
+  font-size: 40px;
+  padding-left: 2rem;
   margin-top:1rem;
+  margin-bottom: 0rem;
 }
 
 h6{
@@ -774,6 +775,7 @@ div.product > * {
 .service-surfing-container{
   background-image: url("../img/ceylons-house-surfing.png");
   background-size: cover;
+  margin: 0;
  
 }
 
@@ -794,6 +796,7 @@ div.product > * {
   color: var(--black);
   margin-top: 0;
   padding: 1rem;
+  text-align: center;
   
 }
 .card-package-price{
