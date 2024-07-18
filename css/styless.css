@@ -118,11 +118,13 @@ h5{
 }
 
 h6{
-  font-family: 'poppins', sans-serif;
+  font-family: 'montserrat', sans-serif;
   color: var(--black);
   margin:0;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 4px;
 }
 button{
   font-family: "Urbanist", sans-serif;
@@ -789,11 +791,26 @@ div.product > * {
   font-family: "poppins", sans-serif;
   font-size: 12px;
   font-weight: 400;
-  text-align: left;
   color: var(--black);
   margin-top: 0;
   padding: 1rem;
+  
 }
+.card-package-price{
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+  margin-top: 0;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px dotted #807771;
+  width: 100%;
+  text-align: center;
+}
+
+
 
 
 @media screen and (min-width: 800px) {
