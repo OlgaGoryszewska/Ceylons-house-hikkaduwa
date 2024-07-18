@@ -22,23 +22,18 @@
 
 @font-face {
   font-family: "Playfair Display", serif;
-  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-}
-
-@font-face {
-  font-family: "Poppins", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-}
-
-@font-face {
-  font-family: "Poppins", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@700&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 }
 
 @font-face {
   font-family: "Montserrat", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 }
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+
 
 
 
@@ -65,13 +60,16 @@ a:focus {
   font-style: italic;
   color: #807771;
 }
+.italic-no-color {
+  font-style: italic;
+
+}
 
 h1,
 p,
 a,
-h2,
 h3 {
-  font-family: "Urbanist";
+
   color: var(--black);
   text-decoration: none;
   text-align: justify;
@@ -85,6 +83,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Playfair Display SC", serif;
   font-weight: 600;
   font-size: 24px;
   text-align: left;
@@ -110,6 +109,20 @@ h4{
   margin:0;
   margin-bottom: 0.5rem;
 
+}
+h5{
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  padding-left: 1rem;
+  margin-top:1rem;
+}
+
+h6{
+  font-family: 'poppins', sans-serif;
+  color: var(--black);
+  margin:0;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 button{
   font-family: "Urbanist", sans-serif;
@@ -223,6 +236,18 @@ button{
   'opsz' 40,
 }
 
+
+.material-symbols-rounded {
+  color: var(--black);
+  padding: 1rem;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 24
+}
+
+
 header {
   display: flex;
   flex-direction: column;
@@ -297,7 +322,7 @@ main {
 
 .header-about-us-hero{
   font-size: 42px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display SC", serif;
   color: var(--black);
   text-transform: uppercase;
   text-align:left;
@@ -735,6 +760,7 @@ div.product > * {
 }
 
 .icon-text{
+  font-family: "poppins", sans-serif;
   font-size: 14px;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
@@ -742,6 +768,31 @@ div.product > * {
   text-transform: uppercase;
   letter-spacing: 1px;
   
+}
+.service-surfing-container{
+  background-image: url("../img/ceylons-house-surfing.png");
+  background-size: cover;
+ 
+}
+
+.card-package{
+  display:flex;
+  flex-direction: column;
+  background-color: #E1D5C7;
+  margin:3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  align-items: center;
+}
+
+.content-card-package{
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--black);
+  margin-top: 0;
+  padding: 1rem;
 }
 
 
