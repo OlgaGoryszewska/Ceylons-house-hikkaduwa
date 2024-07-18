@@ -776,12 +776,18 @@ div.product > * {
   letter-spacing: 1px;
   
 }
+
+.service-spa-container,
 .service-surfing-container{
   background-image: url("../img/ceylons-house-surfing.png");
   background-size: cover;
   margin: 0;
   max-width: 600px;
  
+}
+.service-spa-container{
+  background-image: url("../img/ceylons-house-spa.png");
+
 }
 
 .card-package{
