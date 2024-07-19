@@ -73,7 +73,7 @@ h1,
 p,
 a,
 h3 {
-
+  font-family: "Urbanist", sans-serif;
   color: var(--black);
   text-decoration: none;
   text-align: justify;
@@ -505,9 +505,7 @@ textarea {
 }
 
 .background-img {
-  background-image: url("../IMG/main-img.jpg");
-  margin: 2rem;
-  background-repeat: no-repeat;
+  margin: 1rem;
   justify-self: center;
   align-self: center;
   justify-items: center;
@@ -517,11 +515,11 @@ textarea {
 .contact-form {
   background-color: var(--grey);
   margin: 0rem;
-  padding: 1.2rem;
   display: flex;
   flex-direction: column;
   align-content: center;
   min-width: 100vp;
+  padding: 0;
 }
 
 .header-contact-form {
@@ -529,6 +527,7 @@ textarea {
   font-weight: 700;
   font-size: 25px;
   line-height: 42px;
+  margin-top: 1rem;
 }
 
 /* Blog Page*/
