@@ -42,7 +42,8 @@ html {
 }
 
 body {
-  color: var(--beige);
+  font-family: "Urbanist", sans-serif;
+  color: var(--black);
   margin: auto;
   min-height: 100dvh;
 }
@@ -68,6 +69,15 @@ a:focus {
   color: #807771;
 }
 
+
+li{
+  list-style: none;
+  padding-top: 1rem;
+}
+strong{
+
+  lett
+}
 
 h1,
 p,
