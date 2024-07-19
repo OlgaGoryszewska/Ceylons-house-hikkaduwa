@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  color: var(--beige);
+  color: var(--black);
   margin: auto;
   min-height: 100dvh;
 }
