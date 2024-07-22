@@ -68,6 +68,12 @@ a:focus {
   color: #807771;
 }
 
+li{
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+
+
 
 h1,
 p,
@@ -133,9 +139,13 @@ h6{
   letter-spacing: 4px;
 }
 h7{
+  font-size: 24px;
   font-family: 'poppins', sans-serif;
   color: var(--black);
-  margin: 1rem;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  
 
   
 
@@ -830,8 +840,43 @@ div.product > * {
   text-align: center;
 }
 
+/* Food menu*/
 
+.price,
+.description,
+.menu-item{
+  font-family: "poppins", sans-serif;
+}
 
+.menu-item{
+  padding-top: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px dotted #807771;
+  width: 100%;
+  text-align: left;
+}
+
+.description{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--black);
+  margin-top: 0;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+.price{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--black);
+  margin-top: 0;
+  padding: 1rem;
+  text-align: center;
+}
 
 @media screen and (min-width: 800px) {
   .content-about-us {
