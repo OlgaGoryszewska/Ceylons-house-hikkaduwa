@@ -82,9 +82,13 @@ label{
   margin: 0rem;
 
 }
+h1{
+  justify-self: center;
+  align-self: center;
+  margin-top: 1.5rem;
+}
 
-
-h1,
+/* Fonts */
 p,
 a,
 h3 {
@@ -112,6 +116,7 @@ h3 {
   color: #807771;
   margin-top:0.5rem;
 }
+h1,
 h4{
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -148,10 +153,6 @@ h7{
   margin-left: 1rem;
   margin-top: 1rem;
   letter-spacing: 1px;
-
-
-  
-
 }
 button{
   font-family: "Urbanist", sans-serif;
@@ -612,6 +613,10 @@ div.product > * {
   color: var(--black);
   margin-top: 0;
 }
+.italic-content{
+  margin-top: 1rem;
+}
+
 .content-main{
   margin:1rem;
   text-align: center;
@@ -764,14 +769,16 @@ div.product > * {
   margin-right: auto;
   width: 100%;
 }
+.menu-section,
 .contact-container{
   margin: 1rem;
   display: flex;
   flex-direction: column;
   max-width: 600px;
-
+  align-self:center;
 
 }
+
 
 
 /* Baner */
