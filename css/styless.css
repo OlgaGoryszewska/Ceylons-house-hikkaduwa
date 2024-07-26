@@ -762,10 +762,18 @@ div.product > * {
 
 /* Contact page */
 
-map {
+.map {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+.contact-container{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+
+
 }
 
 
