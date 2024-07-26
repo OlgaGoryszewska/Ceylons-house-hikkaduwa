@@ -94,9 +94,6 @@ h3 {
   text-align: justify;
 }
 
-h1 {
-
-}
 
 h2 {
   font-family: "Playfair Display SC", serif;
@@ -104,7 +101,7 @@ h2 {
   font-size: 24px;
   text-align: left;
 }
-
+.titel-contact,
 h3 {
   text-align: left;
   font-family: "montserrat", sans-serif;
