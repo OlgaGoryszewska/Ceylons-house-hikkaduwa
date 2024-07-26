@@ -684,6 +684,11 @@ div.product > * {
 
 }
 
+.contact-us-container{
+  background-image: url("../img/basen-jungle.png");
+ 
+}
+
 .card-package{
   display:flex;
   flex-direction: column;
