@@ -134,10 +134,13 @@ h4{
 h5{
   color: var(--beige);
   font-family: "Playfair Display", serif;
-  font-size: 40px;
-  padding-left: 2rem;
+  font-size: 28px;
   margin-top:1rem;
   margin-bottom: 0rem;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
 }
 
 h6{
@@ -675,6 +678,8 @@ div.product > * {
 
 .service-spa-container,
 .service-surfing-container{
+  display: flex;
+  flex-direction: column;
   background-image: url("../img/ceylons-house-surfing.png");
   background-size: cover;
   margin: 0;
