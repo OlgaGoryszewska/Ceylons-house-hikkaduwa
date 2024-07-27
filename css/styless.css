@@ -792,3 +792,7 @@ div.product > * {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
+
+.m-1{
+  margin: 1rem;
+}
