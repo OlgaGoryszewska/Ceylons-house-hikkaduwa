@@ -58,7 +58,10 @@ a:focus {
 }
 .italic {
   font-style: italic;
-  color: #807771;
+  letter-spacing: -5px;
+  font-weight: 100;
+
+
 }
 .italic-no-color {
   font-style: italic;
@@ -340,11 +343,12 @@ main {
 .header-about-us-hero{
   font-size: 38px;
   font-family: "Playfair Display SC", serif;
-  color: var(--black);
+  color: #095538;
   text-transform: uppercase;
   text-align:center;
-  font-weight: 100;
-  margin:1rem
+  font-weight: 400;
+  margin:1rem;
+  letter-spacing: 2px;
 
 
 }
