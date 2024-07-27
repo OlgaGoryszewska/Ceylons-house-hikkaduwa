@@ -628,8 +628,6 @@ div.product > * {
   max-width: 100%;
   object-fit: cover;
   opacity: 0;
-  transform: translateY(-20px);
-  animation: slideDown 1s ease-out 0.5s forwards;
   border-radius: 3px;
   margin-bottom: 1rem;
 }
