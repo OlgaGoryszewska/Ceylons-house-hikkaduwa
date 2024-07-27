@@ -787,3 +787,8 @@ div.product > * {
   color: #E1D5C7;
 }
 
+.menu-section{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
