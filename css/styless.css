@@ -341,14 +341,15 @@ main {
 }
 
 .header-about-us-hero{
-  font-size: 38px;
+  font-size: 42px;
   font-family: "Playfair Display SC", serif;
   color: #095538;
-  text-transform: uppercase;
+ 
   text-align:center;
   font-weight: 400;
   margin:1rem;
-  letter-spacing: 2px;
+  margin-bottom: 0;
+ 
 
 
 }
