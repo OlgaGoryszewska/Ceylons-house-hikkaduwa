@@ -636,6 +636,7 @@ div.product > * {
   
 }
 
+.service-travel-container,
 .service-spa-container,
 .service-surfing-container{
   display: flex;
@@ -649,6 +650,9 @@ div.product > * {
 .service-spa-container{
   background-image: url("../img/ceylons-house-spa.png");
 
+}
+.service-travel-container{
+  background-image: url("../img/ceylons-house-tok-tok.png");
 }
 
 .contact-us-container{
@@ -795,4 +799,35 @@ div.product > * {
 
 .m-1{
   margin: 1rem;
+}
+
+/*Carusele*/
+
+
+.carousel {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--beige);
+  margin-bottom: 1rem;
+  
+}
+
+.carousel-images {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
 }

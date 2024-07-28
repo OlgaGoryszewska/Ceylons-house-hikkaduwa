@@ -33,6 +33,7 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
     </style>
+    <script src="carusele.js" defer></script>
 
   </head>
   <!-- Google tag (gtag.js) -->
@@ -105,17 +106,15 @@
           <p class="content-main">We have created nine rooms, a rooftop restaurant, and a pool for you to enjoy on those hot days. But that's not all. Explore our special offerings such as our Surfing School, massage and Ayurveda therapy, tailored trips, and unique, incredibly fresh seafood.</p>
           <div class="white-card">
             <h4>Enjoy rooms with a jungle view and balcony</h4>
-            <img
-                class="about-us-image"
-                src="img/Ceylons-house-room.jpg"
-                alt="Guests finding inner peace and serenity through yoga practice at our Sri Lankan retreat in Hikkaduwa."
-            />
+            <div class="carousel">
+              <div class="carousel-images">
+                  <div class="carousel-slide"><img src="img/Ceylons-house-room.jpg" alt="alt="Guests finding inner peace and serenity through yoga practice at our Sri Lankan retreat in Hikkaduwa."></div>
+                  <div class="carousel-slide"><img src="img/ceylons-house-balcony.jpg" alt="Image 2"></div>
+                  <div class="carousel-slide"><img src="img/ceylons-house-hotel.jpg" alt="Image 3"></div>
+                  <div class="carousel-slide"><img src="img/Ceylons-house-room.jpg" alt="Image 4"></div>
+              </div>
+          </div>
             <p class="content"> Our boho rooms with private balconies offer the perfect retreat for relaxation and rejuvenation. Each room features modern amenities, comfortable furnishings, and stunning views of the surrounding jungle and rice fields. Wake up to the sound of nature and enjoy your morning coffee on your private balcony.</p>
-            <img
-                class="about-us-image"
-                src="img/ceylons-house-balcony.jpg"
-                alt="Guests finding inner peace and serenity through yoga practice at our Sri Lankan retreat in Hikkaduwa."
-            />
             <button class="button" onclick="window.location.href='https://www.booking.com/hotel/lk/ceylons-house.en-gb.html?selected_currency=USD'">BOOK NOW</button>
 
           </div>
@@ -220,6 +219,34 @@
         </div>
         <div class="service-spa-container">
           <h5>Spa & <span class="italic-no-color">Wellness</span></h5>
+          <div class="card-package">
+            <span class="material-symbols-rounded">
+              spa
+              </span>
+              <h6>Massage</h6>
+              <p class="content-card-package">Experience the transformative power of massage therapy at Ceylons House. Our expert therapist, with three years of full-time training and extensive experience, offers personalized deep tissue and relaxing, holistic treatments designed to rejuvenate your mind, body, and spirit. </p>
+              <p class="card-package-price">1h private treatment: 30$</p>
+          </div>
+          <div class="card-package">
+            <span class="material-symbols-rounded">
+              self_improvement
+              </span>
+              <h6>Shirodhara</h6>
+              <p class="content-card-package">Escape the chaos of daily life with our signature Shirodhara treatment. Our highly skilled therapist, boasting three years of full-time Ayurvedic training and numerous years of practice, offers this deeply relaxing therapy where warm oil cascades gently over your forehead, melting away stress and enhancing mental clarity. </p>
+              <p class="card-package-price">1h private Treatment: 50$</p>
+          </div>
+          <div class="card-package">
+            <span class="material-symbols-rounded">
+              psychiatry
+              </span>
+              <h6>Ayurveda treatment</h6>
+              <p class="content-card-package">Unveil the Secrets of Ayurveda at Ceylons House. Step into a world of ancient healing with our Ayurvedic treatments, expertly delivered by our certified therapist. From the soothing strokes of Abhyanga to the therapeutic benefits of Pinda Sweda, our personalized treatments are designed to restore harmony and vitality.</p>
+              <p class="card-package-price">1h private treatment: 60$.
+              </p>
+          </div>
+        </div>
+        <div class="service-travel-container">
+          <h5>Tailored <span class="italic-no-color">Tours</span></h5>
           <div class="card-package">
             <span class="material-symbols-rounded">
               spa
