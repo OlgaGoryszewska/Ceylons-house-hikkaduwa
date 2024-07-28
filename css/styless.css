@@ -3,6 +3,7 @@
   --beige: #e1d5c7;
   --grey: #f8f8f8;
   --white: #fff;
+  --green: #095538;
 }
 
 @font-face {
@@ -626,16 +627,25 @@ div.product > * {
 
 }
 
+.icon-text-indicator,
 .icon-text{
   font-family: "poppins", sans-serif;
   font-size: 14px;
   margin-top: 0.5rem;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  color: var(--green)
   
 }
 
+.icon-text-indicator{
+  margin-left: 0;
+  padding-right: 1rem;
+  color: #807771;
+  font-size: 12px;
+
+}
 .service-travel-container,
 .service-spa-container,
 .service-surfing-container{
@@ -833,8 +843,8 @@ div.product > * {
 }
 
 .swipe{
-  font-size: 50px; /* Adjust the size as needed */
-  animation: moveRight 2s ease-in-out infinite alternate; /* Adjust the duration and timing function as needed */
+  font-size: 24px; /* Adjust the size as needed */
+  animation: moveRight 1.5s ease-in-out infinite alternate; /* Adjust the duration and timing function as needed */
 }
 
 @keyframes moveRight {
@@ -842,6 +852,6 @@ div.product > * {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(45%);
+      transform: translateX(65%);
   }
 }
