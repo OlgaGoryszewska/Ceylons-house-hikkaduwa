@@ -682,10 +682,12 @@ div.product > * {
   display:flex;
   flex-direction: column;
   background-color: #E1D5C7;
-  margin:2rem;
+  margin: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .content-card-package{
@@ -766,25 +768,20 @@ div.product > * {
 }
 .menu-section,
 .contact-container{
-  margin: 1rem;
+
   display: flex;
   flex-direction: column;
   max-width: 600px;
   align-self:center;
-  padding: 1rem;
   width: 100%;
 
 }
-.contact-info{
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  padding: 1rem;
-  background-color:white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-  
+.menu-section{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+  
+
 
 
 
