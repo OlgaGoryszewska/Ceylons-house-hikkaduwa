@@ -1,9 +1,9 @@
 :root {
-  --black: #231F20;
+  --black: #44468A;
   --beige: #e1d5c7;
-  --grey: #f8f8f8;
+  --grey: #F9EDF0;
   --white: #fff;
-  --green: #095538;
+  --green: #44468A;
 }
 
 @font-face {
@@ -252,27 +252,6 @@ button{
   margin-top: 0rem;
   padding-top: 4rem;
 }
-.material-symbols-outlined {
-  padding-top: 0.3rem;
-  color: var(--black);
-  
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 600,
-  'GRAD' 0,
-  'opsz' 40,
-}
-
-
-.material-symbols-rounded {
-  color: var(--black);
-  padding: 1rem;
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 700,
-  'GRAD' 200,
-  'opsz' 24
-}
 
 
 header {
@@ -350,7 +329,7 @@ main {
 .header-about-us-hero{
   font-size: 42px;
   font-family: "Playfair Display SC", serif;
-  color: #095538;
+  color: var(--black);
   line-height: 0.9;
   text-align:center;
   font-weight: 400;
@@ -585,6 +564,7 @@ div.product > * {
 .content-main{
   margin:1rem;
   text-align: center;
+  margin-top: 0.5rem;
 }
 
 .about-us-image-peacock,
@@ -870,21 +850,65 @@ div.product > * {
   display: block;
 }
 
-.swipe{
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-font-size: 48px; /* Adjust the size as needed */
-color: #807771/* Tomato color */
-}
 
 @keyframes moveRight {
   0% {
       transform: translateX(0);
   }
   100% {
-      transform: translateX(65%);
+      transform: translateX(30%);
   }
+}
+
+.lined-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.icon-text-property{
+  font-family:"montserrat", sans-serif;
+  color: var(--green);
+  margin: 0rem;
+  border-bottom: var(--beige) 1px dashed;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+letter-spacing: 1px;
+}
+
+
+.material-symbols-outlined {
+  padding-top: 0.3rem;
+  color: var(--black);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 40;
+  font-size: 40px;
+}
+
+
+.material-symbols-rounded {
+  color: var(--black);
+  padding: 1rem;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 40;
+  font-size: 40px;
+}
+
+.icon-big{
+ 
+ 
+
+  
+
 }
