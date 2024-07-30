@@ -4,6 +4,7 @@
   --grey: #F9EDF0;
   --white: #fff;
   --green: #44468A;
+  --shadow:#A36A58;
 }
 
 @font-face {
@@ -308,7 +309,7 @@ main {
   padding:1rem;
   background-color: white;
   margin-top: 1rem;
-  box-shadow: 0px 2px 6px 0px #A36A58;
+  box-shadow: 0px 2px 6px 0px var(--shadow);
 }
 
 
@@ -553,7 +554,7 @@ div.product > * {
   background-size: cover;
   margin: 0;
   max-width: 600px;
-  margin-bottom: 1rem;
+
  
 }
 .service-spa-container{
@@ -574,7 +575,7 @@ div.product > * {
   flex-direction: column;
   background-color: #E1D5C7;
   margin: 2rem;
-  box-shadow: 0 4px 8px #714A3D;
+  box-shadow: 0 4px 8px var(--shadow);
   border-radius: 3px;
   align-items: center;
   margin-bottom: 1rem;
@@ -601,7 +602,7 @@ div.product > * {
   padding-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-top: 1px dotted #714A3D;
+  border-top: 1px dotted var(--shadow);
   width: 100%;
   text-align: center;
 }
