@@ -547,16 +547,7 @@ div.product > * {
     transform: translateY(0);
   }
 }
-.content-main,
-.content {
-  font-family: "Poppins", urbanist;
-  font-size: 14px;
-  font-weight: 400;
-  animation: fadeIn 2s;
-  text-align: left;
-  color: var(--black);
-  margin-top: 0;
-}
+
 .italic-content{
   margin-top: 1rem;
 }
@@ -905,10 +896,13 @@ letter-spacing: 1px;
   font-size: 40px;
 }
 
-.icon-big{
- 
- 
-
-  
-
+.content-main,
+.content {
+  font-family: "Poppins", urbanist;
+  font-size: 12px;
+  font-weight: 400;
+  animation: fadeIn 2s;
+  text-align: left;
+  color: var(--black);
+  margin-top: 0;
 }
