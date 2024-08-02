@@ -135,8 +135,8 @@ h4{
 }
 h5{
   color: var(--beige);
-  font-family: "Playfair Display", serif;
-  font-size: 28px;
+  font-family: "Playfair Display SC", serif;
+  font-size: 32px;
   margin-top:1rem;
   margin-bottom: 0rem;
   justify-content: center;
@@ -144,6 +144,7 @@ h5{
   justify-self: center;
   align-self: center;
   text-shadow: #231F20 2px 2px;
+  font-weight: 400;
   
 }
 
@@ -190,9 +191,9 @@ button{
 
 .logo-img {
   position: absolute;
-  top: 0.2rem;
-  width: 75px;
-  align-self:center;
+  left:1rem;
+  width: 35px;
+  align-self:flex-start;
   padding-bottom: 0.4rem;
   z-index: 1;
 }
@@ -212,7 +213,7 @@ button{
   font-size: 18px;
   font-weight: 500;
   transition: transform 0.3s ease-in-out;
-  color: var(--beige);
+  color: var(--grey);
 }
 
 .top-menu {
@@ -305,6 +306,12 @@ main {
   justify-content:flex-start;
 }
 
+.logo-peacock{
+  max-width: 200px;
+  align-self: center;
+
+}
+
 .white-card{
   padding:1rem;
   background-color: white;
@@ -384,12 +391,12 @@ footer {
   display: flex;
   flex-direction: column;
   z-index: 1;
-  color: var(--beige);
+  color: var(--grey);
 
 }
 
 .logo-footer {
-  width: 100px;
+  width: 120px;
   padding: 2rem;
   align-self: center;
 }
@@ -398,13 +405,13 @@ footer {
   align-self: center;
   padding: 0.5rem;
   font-size: 12px;
-  color: var(--beige);
+  color: var(--grey);
 }
 
 .coptrights {
   font-size: 10px;
   padding-top: 2rem;
-  color: var(--beige);
+  color: var(--grey);
 }
 
 
@@ -660,7 +667,6 @@ div.product > * {
 }
 .menu-section,
 .contact-container{
-  margin: 1rem;
   display: flex;
   flex-direction: column;
   max-width: 600px;
@@ -796,7 +802,8 @@ letter-spacing: 1px;
 
 .material-symbols-outlined {
   padding-top: 0.3rem;
-  color: var(--beige);
+  color: var(--black);
+  text-shadow: var(--grey) 1px 1px;
   font-variation-settings:
   'FILL' 0,
   'wght' 300,
