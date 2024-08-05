@@ -71,6 +71,7 @@ a:focus {
 }
 .color-gray {
   color: #807771;
+  mar
 }
 
 li{
@@ -144,7 +145,7 @@ h5{
   justify-self: center;
   align-self: center;
   text-shadow: #231F20 2px 2px;
-  font-weight: 400;
+  font-weight: 900;
   
 }
 
@@ -583,7 +584,7 @@ div.product > * {
   flex-direction: column;
   background-color: #E1D5C7;
   margin: 2rem;
-  box-shadow: 0 4px 8px var(--shadow);
+  box-shadow: 0px 2px 6px 0px #0000001a;
   border-radius: 3px;
   align-items: center;
   margin-bottom: 1rem;
@@ -598,16 +599,16 @@ div.product > * {
   margin-top: 0;
   padding: 1rem;
   text-align: center;
+  margin-bottom: 0;
   
 }
 .card-package-price{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
   font-family: "poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: var(--black);
-  margin-top: 0;
-  padding: 1rem;
-  padding-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-top: 1px dotted var(--shadow);
@@ -687,7 +688,7 @@ div.product > * {
   margin: 1rem;
   padding: 1rem;
   background-color:white;
-  box-shadow: 0 4px 8px #714A3D;
+  box-shadow: 0px 2px 6px 0px var(--shadow);
 
   
 }
@@ -721,11 +722,11 @@ div.product > * {
 }
 
 .luxury-bar-section{
-  background-color: #714A3D;
+  background-color: white;
   
 }
 .beige{
-  color: #E1D5C7;
+  color: var(--black);
 }
 
 .menu-section{
